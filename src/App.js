@@ -9,14 +9,14 @@ class App extends Component {
 
   componentWillMount() {
     firebase.initializeApp({
-      apiKey: 'AIzaSyB50RIgqAAPO5TxIdFopUIvovtnCPueczA',
-      authDomain: 'react-native-firebase-47caa.firebaseapp.com',
-      databaseURL: 'https://react-native-firebase-47caa.firebaseio.com',
-      projectId: 'react-native-firebase-47caa',
-      storageBucket: 'react-native-firebase-47caa.appspot.com',
-      messagingSenderId: '881896367654',
-      appId: '1:881896367654:web:05635705f87465e8e9a8e7',
-      measurementId: 'G-DVWRHH7BZ0',
+      apiKey: 'dammy',
+      authDomain: 'react-native-firebase-dammy.com',
+      databaseURL: 'https://react-native-firebase-dammy.com',
+      projectId: 'react-native-firebase-dammy',
+      storageBucket: 'react-native-firebase-dammy.com',
+      messagingSenderId: 'dammy',
+      appId: '1:dammy:web:dammy',
+      measurementId: 'dammy-dammy',
     });
 
     firebase.auth().onAuthStateChanged((user) => {
